@@ -1,6 +1,9 @@
 package dominio;
 import java.util.*;
 
+/**
+ * Implementación sencilla de un nodo para el de árbol de Huffman
+ */
 class Node implements Comparable<Node> {
     char character;
     int frequency;

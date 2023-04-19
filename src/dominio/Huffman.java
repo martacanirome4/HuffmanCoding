@@ -2,6 +2,9 @@ package dominio;
 import java.util.*;
 import dominio.Node;
 
+/**
+ * Clase que representa un árbol de Huffman
+ */
 public class Huffman {
 
     public static Node buildHuffmanTree(char[] chars, int[] freqs) {
