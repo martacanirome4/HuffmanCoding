@@ -1,30 +1,12 @@
 package algorithm;
 import java.util.*;
-
-/**
- * Clase que representa un árbol de Huffman
- */
-
-// construir arbol a partir de array
-// decodificar
-class HuffmanNode {
-
-    char character;
-    int frequency;
-    HuffmanNode left, right;
-
-}
-
-class MyComparator implements Comparator<HuffmanNode> {
-
-    public int compare(HuffmanNode x, HuffmanNode y) {
-        return x.frequency - y.frequency;
-    }
-}
+import algorithm.HuffmanNode;
+import algorithm.MyComparator;
 
 public class Huffman {
 
     public static HuffmanNode buildHuffmanTree(char[] characters, int[] ocurrences) {
+
         int n = characters.length;
         PriorityQueue<HuffmanNode> q = new PriorityQueue<>(n, new MyComparator());
 
