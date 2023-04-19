@@ -6,6 +6,10 @@ import algorithm.MyComparator;
 
 public class Main {
 
+    /**
+     * Main method
+     * @param args
+     */
     public static void main(String[] args) {
 
         Huffman huffman = new Huffman();

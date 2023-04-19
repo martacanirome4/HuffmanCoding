@@ -5,6 +5,12 @@ import algorithm.MyComparator;
 
 public class Huffman {
 
+    /**
+     * Builds a Huffman tree
+     * @param characters
+     * @param ocurrences
+     * @return Huffman tree root
+     */
     public static HuffmanNode buildHuffmanTree(char[] characters, int[] ocurrences) {
 
         int n = characters.length;
@@ -38,6 +44,11 @@ public class Huffman {
     }
 
 
+    /**
+     * Prints the Huffman code for each character
+     * @param root
+     * @param s
+     */
     public static void printCode(HuffmanNode root, String s) {
 
         if (    root.left == null &&
@@ -53,6 +64,12 @@ public class Huffman {
         printCode(root.right, s + "1");
     }
 
+    /**
+     * Decodes the encoded message
+     * @param root
+     * @param encodedMessage
+     * @return decoded message
+     */
     public static String decode(HuffmanNode root, String encodedMessage) {
         StringBuilder decodedMessage = new StringBuilder();
         HuffmanNode current = root;
