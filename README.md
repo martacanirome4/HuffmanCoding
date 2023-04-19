@@ -1,1 +1,1 @@
-# HuffmanAlgorithm
+# Huffman Coding Algorithm
