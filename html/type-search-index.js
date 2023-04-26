@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"algorithm","l":"Huffman"},{"p":"algorithm","l":"HuffmanNode"},{"p":"aplicacion","l":"Main"},{"p":"algorithm","l":"MyComparator"}];updateSearchResults();
